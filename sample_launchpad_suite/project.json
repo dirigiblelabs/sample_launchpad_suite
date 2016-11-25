@@ -1,1 +1,30 @@
-{"guid":"sample_launchpad_suite","repository":{"type":"git","branch":"master","url":"https://github.com/dirigiblelabs/sample_launchpad_suite.git"}}
+{
+    "guid": "sample_launchpad_suite",
+    "repository": {
+        "type": "git",
+        "branch": "master",
+        "url": "https://github.com/dirigiblelabs/sample_launchpad_suite.git"
+    },
+    "dependencies": [{
+            "guid":"launchpad",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/launchpad.git",
+            "branch":"master"
+    	}, {
+            "guid":"sample_launchpad_customers",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/sample_launchpad_customers.git",
+            "branch":"master"
+    	}, {
+            "guid":"sample_launchpad_books",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/sample_launchpad_books.git",
+            "branch":"master"
+    	}, {
+            "guid":"sample_launchpad_github",
+            "type": "git",
+            "url": "https://github.com/dirigiblelabs/sample_launchpad_github.git",
+            "branch":"master"
+    	}
+    ]
+}
